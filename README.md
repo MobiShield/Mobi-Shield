@@ -1,4 +1,4 @@
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5d6559bb-9573-4d76-beff-7c6a9faf1477" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5d6559bb-9573-4d76-beff-7c6a9faf1477" />
 
 
 # Mobi Shield
