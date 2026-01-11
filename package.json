@@ -1,0 +1,31 @@
+{
+  "name": "mobi-shield",
+  "version": "1.0.0",
+  "description": "AI-powered Dip Shield bot for pumpfun that reinjects profits at 30% dips",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": ["solana", "pumpfun", "dip-shield", "ai", "bot"],
+  "author": "MobiShield",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.8",
+    "openai": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.3",
+    "bs58": "^5.0.0",
+    "pumpdotfun-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "nodemon": "^3.0.0",
+    "jest": "^29.0.0"
+  }
+}

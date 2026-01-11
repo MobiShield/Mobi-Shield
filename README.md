@@ -1,2 +1,35 @@
-# Mobi-Shield
-Mobi Shield. AI powered Dip Shield bot that utilizes all profits + developer fees to be reinjected fully at 30% dips
+# Mobi Shield
+
+Mobi Shield is an AI-powered Dip Shield bot designed to monitor token market conditions on pumpfun and coordinate full treasury reinjection strategies during 30% drawdown events.
+
+The system continuously observes price data, detects structured drawdowns relative to recent peaks, and produces deterministic reinjection plans that allocate all accumulated developer fees and protocol profits back into the ecosystem when thresholds are met.
+
+This repository focuses on detection, policy definition, accounting, and communication logic. Execution of capital movements is intentionally separated.
+
+## Overview
+
+Mobi Shield operates as a modular service composed of the following layers:
+
+- Market data ingestion
+- Drawdown detection
+- Treasury accounting
+- Reinjection planning
+- Automated communication and reporting
+
+The system is designed to be transparent, auditable, and deterministic, with clear separation between policy logic and capital execution.
+
+## Core Principles
+
+- **Threshold-based response**  
+  Reinjection events are triggered at 30% drawdowns from a rolling local peak.
+
+- **Full allocation policy**  
+  All accumulated developer fees and protocol profits are allocated during each reinjection event.
+
+- **Execution separation**  
+  This codebase does not perform swaps, trades, or on-chain execution directly.
+
+- **Deterministic behavior**  
+  Identical inputs produce identical reinjection plans.
+
+## Architecture
