@@ -2,9 +2,9 @@
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5d6559bb-9573-4d76-beff-7c6a9faf1477" />
 </div>
 
-# Mobi Shield
+# Pysopstrategy
 
-Mobi Shield is an AI-powered Dip Shield bot designed to monitor token market conditions on pumpfun and coordinate full treasury reinjection strategies during 30% drawdown events.
+Pysopstrategy is an AI-powered Dip Shield bot designed to monitor token market conditions on pumpfun and coordinate full treasury reinjection strategies during 30% drawdown events.
 
 The system continuously observes price data, detects structured drawdowns relative to recent peaks, and produces deterministic reinjection plans that allocate all accumulated developer fees and protocol profits back into the ecosystem when thresholds are met.
 
@@ -12,7 +12,7 @@ This repository focuses on detection, policy definition, accounting, and communi
 
 ## Overview
 
-Mobi Shield operates as a modular service composed of the following layers:
+Pysopstrategy operates as a modular service composed of the following layers:
 
 - Market data ingestion
 - Drawdown detection

@@ -27,7 +27,7 @@ async function checkAndAct() {
 }
 
 function startBot() {
-  console.log('Starting Mobi Shield bot...');
+  console.log('Starting Pysopstrategy bot...');
   cron.schedule(CHECK_INTERVAL, checkAndAct);
   // Run once immediately
   checkAndAct();

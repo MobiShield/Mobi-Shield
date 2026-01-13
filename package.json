@@ -1,5 +1,5 @@
 {
-  "name": "mobi-shield",
+  "name": "pysopstrategy-shield",
   "version": "1.0.0",
   "description": "AI-powered Dip Shield bot for pumpfun that reinjects profits at 30% dips",
   "main": "src/index.js",
@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "keywords": ["solana", "pumpfun", "dip-shield", "ai", "bot"],
-  "author": "MobiShield",
+  "author": "PysopstrategyShield",
   "license": "MIT",
   "dependencies": {
     "@solana/web3.js": "^1.87.6",
